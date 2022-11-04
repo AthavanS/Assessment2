@@ -1,0 +1,125 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.course{
+  margin: 0px auto;
+  width: 1500px;
+  background-color: aliceblue;
+  height: 100vh;
+}
+
+ .course .ant-row {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+  height: 40px;
+}
+
+.course .ant-card-bordered {
+  border: 1px solid #f0f0f0;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  left: 500px;
+  top: 100px;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.course .ant-card-head-title {
+  display: inline-block;
+  flex: 1 1;
+  padding: 16px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.course .ant-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  display: inline-block;
+  width: 450px;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.course .ant-form-item-label > label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  margin-left: 110px;
+}
+
+
